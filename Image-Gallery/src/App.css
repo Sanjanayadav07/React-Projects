@@ -1,0 +1,65 @@
+
+/* src/App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Enhanced heading styling */
+.App h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(135deg, #3498db, #8e44ad);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  padding-bottom: 15px;
+  position: relative;
+  margin: 20px 0;
+  letter-spacing: 2px;
+  animation: fadeIn 1s ease-in-out both;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.App h1:hover {
+  transform: scale(1.05);
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Decorative line below the heading */
+.App h1::after {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 4px;
+  background: linear-gradient(135deg, #3498db, #8e44ad);
+  margin: 12px auto 0;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+/* Hover effect for the decorative line */
+.App h1:hover::after {
+  width: 180px;
+}
+
+/* Fade-in animation for heading */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
