@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Trispace:wght@200;400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trispace", sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to left, #2193b0, #6dd5ed);
+}
+.container {
+  width: 400px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  /* border-radius: 20px; */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.display {
+  width: 100%;
+  margin: 0 auto;
+  height: 5rem;
+  background: #fff;
+  border: none;
+  margin-top: -5em;
+  padding: 0.2em 0.4em;
+  border: 2px solid #65268f;
+
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  /* border-radius: 20px; */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.operator {
+  display: block;
+  height: 15px;
+}
+
+.buttons-num {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+
+  padding: 1em 1.3em;
+}
+
+.btn {
+  position: relative;
+  background: transparent;
+  font-size: 1.3rem;
+  padding: 0.25em 0.75em;
+  transition: all 300ms;
+
+  color: #000;
+}
+
+.btn-pink {
+  background-color: #fe0068;
+}
+
+.btn:hover {
+  background: #fff;
+  color: black;
+}
+
+.btn:active {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  top: 2px;
+}
