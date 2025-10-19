@@ -105,8 +105,8 @@ If you want, I can **integrate this directly into the all-in-one README I create
 ### 👤 Author
 **Sanjana Yadav**  
 - 💼 Role: Software & Full Stack Developer  
-- 🌐 GitHub: [https://github.com/piyush-eon](https://github.com/sanjanayadav07)  
-- 🔗 LinkedIn: [https://www.linkedin.com/in/piyush-eon](https://www.linkedin.com/in/sanjana-yadav007)  
+- 🌐 GitHub: [https://github.com/sanjanayadav07)
+- 🔗 LinkedIn: [https://www.linkedin.com/in/sanjana-yadav007]
 - ✉️ Email: sanjanayadav3952@gmail.com  
 - 🎓 Education: Babu Banarasi Das University  
 
