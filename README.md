@@ -62,6 +62,34 @@ npm start
 🔗 Live Demo
 [https://youtube-clone-vert-two.vercel.app/]
 
+# 💻 Cryptoplace
+
+A responsive React project featuring multiple UI components and pages, built with Vite, ready for local development and deployment.
+## ✨ Features
+- ➕➖ Multiplication, division, addition, subtraction support
+- 📱 Fully responsive design for mobile & desktop
+- 🎨 Modern UI with reusable React components
+- 🚀 Ready to deploy on Vercel
+
+## 🚀 Installation
+
+ Clone the repository, install dependencies, and start the project:
+ ```
+ # Clone the repository
+git clone https://github.com/Sanjanayadav07/React-Projects.git
+
+# Navigate into the Cryptoplace folder
+cd Cryptoplace
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+🔗 Live Demo
+[https://cryptoplace-theta.vercel.app/]
+
 ### 🛠️ Tech Stack
 
 - **⚛️ Frontend:** React  
@@ -74,12 +102,10 @@ npm start
 - **📝 Version Control:** Git & GitHub  
 - **🚀 Deployment:** Vercel / Netlify  
 - **🌍 Browser Support:** Modern browsers
+- 
 ### 🤝 Contributing
-
 Contributions are welcome! You can help by fixing bugs, improving UI, or adding new features.
-
 1. **Fork the repository**
-
 2. **Clone your fork:**
 ```bash
 git clone <your-fork-url>
