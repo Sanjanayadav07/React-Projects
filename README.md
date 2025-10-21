@@ -89,6 +89,28 @@ npm start
 ```
 🔗 Live Demo
 [https://cryptoplace-theta.vercel.app/]
+----
+# 🎥 Netflix Clone
+
+A fully responsive Netflix Clone built using React and TMDB API, featuring dynamic movie categories, video trailers, and a sleek dark UI.
+
+## ✨ Features
+- 🎞️ Browse trending, popular, and top-rated movies
+- 🔍 Search for your favorite shows and films
+- ▶️ Watch trailers (via YouTube integration)
+- 🧭 Responsive UI with Netflix-style design
+- 💾 Fetches data dynamically from TMDB API
+
+## 🚀 Installation
+```bash
+git clone <your-repo-url>
+cd netflix-clone
+npm install
+npm start
+
+```
+🔗 Live Demo
+[https://netflix-clone-pearl-five-67.vercel.app/]
 
 ### 🛠️ Tech Stack
 
